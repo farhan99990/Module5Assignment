@@ -19,6 +19,8 @@ void main() {
   print('Original Price: ${book1.price} tk');
   print('Discounted Price (10%): ${book1.discountedPrice(10.0)} tk');
 
+  print('\n');
+
   Book book2 = Book('Saimum', 'Abul Asad', 3073);
 
   print('Title: ${book2.title}');
